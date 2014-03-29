@@ -35,7 +35,7 @@ gradSchemes
 divSchemes
 {
     default         none;
-    div(phi,psi) Gauss upwind;//Gauss linear;// Gauss SFCD;// Gauss upwind;
+    div(phi,psi) Gauss linear;// Gauss SFCD;// Gauss upwind;
 }
 
 laplacianSchemes
